@@ -1,0 +1,6 @@
+# signing keys and passwords never belong in the repository
+*.jks
+*.keystore
+*.pass
+# build output
+*.apk

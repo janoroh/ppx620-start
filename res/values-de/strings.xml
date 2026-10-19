@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PPX620 Start</string>
+    <string name="subtitle">Starthilfe für den Philips PicoPix Max (PPX620)</string>
+
+    <string name="section_start">Nach dem Einschalten</string>
+    <string name="target_launcher">Nach dem Start zeigen: Android-Launcher</string>
+    <string name="target_hdmi">Nach dem Start zeigen: HDMI</string>
+    <string name="guard_on">Fernbedienung entsperren: an</string>
+    <string name="guard_off">Fernbedienung entsperren: aus</string>
+    <string name="delay">Wartezeit: %1$d s</string>
+    <string name="delay_minus">−1 s</string>
+    <string name="delay_plus">+1 s</string>
+    <string name="start_help">HDMI: Der Projektor bleibt auf dem HDMI-Eingang. Launcher: Etwa 13 s nach dem gelben „No Signal“-Bild schaltet die App zurück zu Android. Fernbedienung entsperren: Hat Zurück/Home das Eingangsmenü geschlossen, das Bild bleibt aber auf HDMI, wiederholt die App die Umschaltung, damit die Fernbedienung wieder funktioniert.</string>
+
+    <string name="section_color">Farbkorrektur</string>
+    <string name="color_on">Farben beim Start setzen: an</string>
+    <string name="color_off">Farben beim Start setzen: aus</string>
+    <string name="red">Rot</string>
+    <string name="green">Grün</string>
+    <string name="blue">Blau</string>
+    <string name="look">Look</string>
+    <string name="color_help">Regler auswählen und mit links/rechts auf der Fernbedienung verstellen. Änderungen wirken sofort und werden gespeichert.</string>
+    <string name="take_active">Diese Werte übernehmen</string>
+    <string name="take_slot1">Profil 1 der Screeneo-App übernehmen</string>
+    <string name="take_slot2">Profil 2 der Screeneo-App übernehmen</string>
+    <string name="apply_now">Gespeicherte Werte wieder setzen</string>
+    <string name="taken">Werte übernommen: %1$s</string>
+    <string name="slot_missing">Profil in den Screeneo-Einstellungen nicht gefunden.</string>
+    <string name="need_storage">Zum Lesen der Screeneo-Einstellungen ist eine Berechtigung nötig.</string>
+
+    <string name="section_status">Status</string>
+    <string name="status_source">Bildquelle: %1$s</string>
+    <string name="source_android">Android</string>
+    <string name="source_hdmi">HDMI</string>
+    <string name="status_color">Aktive Farben: Rot %1$s, Grün %2$s, Blau %3$s, Look %4$s</string>
+    <string name="show_log">Protokoll anzeigen</string>
+    <string name="hide_log">Protokoll ausblenden</string>
+    <string name="pattern_on">Testbild: an</string>
+    <string name="pattern_off">Testbild: aus</string>
+    <string name="mismatch">Der Projektor nutzt gerade andere Farben (z. B. aus der Screeneo-App): %1$s</string>
+    <string name="fullscreen">Vollbild</string>
+    <string name="fullscreen_hint">Links/rechts: nächstes Bild · OK oder Zurück: zurück</string>
+    <string-array name="pattern_names">
+        <item>Testbild: aus</item>
+        <item>Farbbalken</item>
+        <item>Farbtafel</item>
+        <item>Z 100 % Schwarz</item>
+        <item>Z Ausrichtung</item>
+        <item>Z Weiß</item>
+    </string-array>
+    <string name="credits">Bildnachweise</string>
+    <string name="status_mode">Energiemodus: %1$s</string>
+    <string name="status_mode_scaled">Energiemodus: %1$s (Profil × %2$s)</string>
+    <string name="mode_eco">Economy</string>
+    <string name="mode_standard">Standard</string>
+    <string name="mode_presentation">Präsentation</string>
+    <string name="modes_help">Economy nutzt die Werte oben. Beim Wechsel auf Standard hellt die App sie farbtreu auf das 1,25-Fache auf, bei Präsentation auf das hellste farbtreue Maß (Rot am Anschlag). Gilt auch im Akkubetrieb. Übernommene Werte gelten für den gerade aktiven Modus. Für den Akkubetrieb gibt es ein eigenes Profil: am Akku einstellen.</string>
+    <string name="profile_mains">Profil für Netzbetrieb</string>
+    <string name="profile_battery">Profil für Akkubetrieb</string>
+    <string name="on_battery">, Akku</string>
+    <string name="section_slots">Gespeicherte Profile</string>
+    <string name="slot_title">Platz %1$d</string>
+    <string name="slot_load">Laden</string>
+    <string name="slot_save">Speichern</string>
+    <string name="slot_empty">leer</string>
+    <string name="slot_mains">Netz</string>
+    <string name="slot_battery">Akku</string>
+    <string name="slot_derived">automatisch</string>
+    <string name="slot_loaded">Platz %1$d geladen</string>
+    <string name="slot_saved">Aktuelles Profil in Platz %1$d gespeichert</string>
+    <string name="slot_overwrite">Platz %1$d mit dem aktuellen Profil überschreiben?</string>
+    <string name="slots_help">Ein Platz speichert das Netzprofil und, falls eigens eingestellt, das Akkuprofil.</string>
+    <string name="notification_running">Startkorrektur und Farbprofil aktiv</string>
+</resources>

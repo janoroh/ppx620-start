@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PPX620 Start</string>
+    <string name="subtitle">Startup helper for the Philips PicoPix Max (PPX620)</string>
+
+    <string name="section_start">At startup</string>
+    <string name="target_launcher">After startup: Android home screen</string>
+    <string name="target_hdmi">After startup: HDMI</string>
+    <string name="guard_on">Remote unblocking: on</string>
+    <string name="guard_off">Remote unblocking: off</string>
+    <string name="delay">Delay: %1$d s</string>
+    <string name="delay_minus">−1 s</string>
+    <string name="delay_plus">+1 s</string>
+    <string name="start_help">HDMI: the projector stays on the HDMI input. Home screen: about 13 seconds after the yellow “No Signal” screen appears, the app switches back to Android. Remote unblocking: if the input menu closes but the picture is stuck on HDMI, the app switches back so the remote works again.</string>
+
+    <string name="section_color">Color correction</string>
+    <string name="color_on">Apply colors at startup: on</string>
+    <string name="color_off">Apply colors at startup: off</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="look">Look</string>
+    <string name="color_help">Select a slider and press left/right on the remote. Changes take effect right away and are saved automatically.</string>
+    <string name="take_active">Use these values</string>
+    <string name="take_slot1">Import profile 1 from the Screeneo app</string>
+    <string name="take_slot2">Import profile 2 from the Screeneo app</string>
+    <string name="apply_now">Restore my saved values</string>
+    <string name="taken">Values imported: %1$s</string>
+    <string name="slot_missing">Couldn’t find or read that profile.</string>
+    <string name="need_storage">The app needs storage access to read the Screeneo settings.</string>
+
+    <string name="section_status">Status</string>
+    <string name="status_source">Picture source: %1$s</string>
+    <string name="source_android">Android</string>
+    <string name="source_hdmi">HDMI</string>
+    <string name="status_color">Current colors: red %1$s, green %2$s, blue %3$s, look %4$s</string>
+    <string name="show_log">Show log</string>
+    <string name="hide_log">Hide log</string>
+    <string name="pattern_on">Test pattern: on</string>
+    <string name="pattern_off">Test pattern: off</string>
+    <string name="mismatch">The projector is currently using different colors (from the Screeneo app, for example): %1$s</string>
+    <string name="fullscreen">Full screen</string>
+    <string name="fullscreen_hint">Left/right: next pattern · OK or Back: exit full screen</string>
+    <string-array name="pattern_names">
+        <item>Test pattern: off</item>
+        <item>Color bars</item>
+        <item>Color chart</item>
+        <item>Z 100% Black</item>
+        <item>Z Alignment</item>
+        <item>Z White</item>
+    </string-array>
+    <string name="credits">Image credits</string>
+    <string name="status_mode">Energy mode: %1$s</string>
+    <string name="status_mode_scaled">Energy mode: %1$s (profile ×%2$s)</string>
+    <string name="mode_eco">Economy</string>
+    <string name="mode_standard">Standard</string>
+    <string name="mode_presentation">Presentation</string>
+    <string name="modes_help" formatted="false">Economy uses the values above. In Standard, the app makes them 25% brighter while keeping the color balance; in Presentation, as bright as possible (red at maximum). This also works on battery power. Imported values apply to whichever mode is active at the time. Battery power has its own profile: adjust it while running on battery.</string>
+    <string name="profile_mains">Mains power profile</string>
+    <string name="profile_battery">Battery profile</string>
+    <string name="on_battery">, on battery</string>
+    <string name="section_slots">Saved profiles</string>
+    <string name="slot_title">Slot %1$d</string>
+    <string name="slot_load">Load</string>
+    <string name="slot_save">Save</string>
+    <string name="slot_empty">empty</string>
+    <string name="slot_mains">mains</string>
+    <string name="slot_battery">battery</string>
+    <string name="slot_derived">automatic</string>
+    <string name="slot_loaded">Slot %1$d loaded</string>
+    <string name="slot_saved">Current profile saved to slot %1$d</string>
+    <string name="slot_overwrite">Replace slot %1$d with the current profile?</string>
+    <string name="slots_help">Each slot stores your mains profile and, if you’ve set one, your battery profile.</string>
+    <string name="notification_running">Startup fix and color profile active</string>
+</resources>
